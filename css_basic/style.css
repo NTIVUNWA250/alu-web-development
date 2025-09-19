@@ -3,6 +3,10 @@ main,body{
 }
 body{
     flex-direction: column;
+    background-image: url("C:\Users\pc\OneDrive\Pictures\Capture.PNG");
+    background-size: cover;
+    background-position: center;
+    background-color: antiquewhite;
 }
 main{
     flex-direction: row;
@@ -10,9 +14,11 @@ main{
 }
 article{
     flex: 3;
+    background-color: azure;
 }
 aside{
     flex: 1;
+    background-color: aliceblue;
 }
 article, aside{
     overflow-y: auto;
