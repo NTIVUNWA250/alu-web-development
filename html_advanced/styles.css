@@ -8,38 +8,90 @@
 header{
     display: flex;
     justify-content:space-between;
-}  
+} 
+.logo{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.logo img{
+    width: 50px;
+    height: 10px;
+}
+.intro{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+} 
 .intro a{
     color: rgb(200, 204, 208);
     text-align: right;
     display: flex;
     float: left;
-    justify-content:space-between; 
+    margin-right: 40px;
+    text-decoration: none; 
+    font-size:x-small;
 } 
 .block21{
     align-items: center;
 }
-
-.block21 img{
-    border-radius: 50%;
-    width: 10;
-    height: 10;
-}
 .section1 h1{
     text-align: center;
     color: rgb(255, 255, 255);
+    font-size:xx-large;
 }
 .section1 p{
     text-align: center;
-    size: 50;
+    font-size:xx-small;
     color: azure;
+    word-spacing: 20px;
 }
 .section1 button{
     background-color: rgb(169, 91, 241);
     color: rgb(205, 208, 211);
-    display: flex;
-    border-radius: 10%;
-    justify-content: center;
-    padding: 10x 30x;
     cursor: pointer;
+    padding: 10px 30px;          
+    border-radius: 50px;         
+    border: 2px solid  rgb(169, 91, 241); 
+    font-size: 5px;   
+    margin:auto;
+    display: block;
 }
+.block2 h2{
+    margin-top: 100px;
+    color: rgb(218, 215, 212);
+    text-align: center;
+}
+.learn{
+    color:  rgb(169, 91, 241);
+}
+.block21{
+    display: flex;
+    justify-content: space-around;
+    size: small;
+}
+.block21 img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    align-content: center;
+    display: block;
+    margin: auto;
+}
+.block21 h3{
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+    font-size: small;
+}
+.block21 p{
+    font: italic;
+    word-spacing: normal;
+}
+.block211{
+    margin-left: 40px;
+    align-content: center;
+}
+.block214{
+    margin-right: 20px;
+}
+
